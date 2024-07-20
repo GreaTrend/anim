@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/media_query.css">
+
+    <!-- Google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+    <!-- Swiper CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>AnimeKu</title>
+</head>
+<body>
+    <!-- Main container -->
+
+    <div class="container" >
+
+            
+      <!-- header section -->
+      <header class="">
+          <div class="navbar">
+              <button class="navbar-menu-btn">
+                  <span class="one"></span>
+                  <span class="two"></span>
+                  <span class="three"></span>
+              </button>
+
+              <a href="index.html" class="navbar-brand">
+                  <img src="./assets/images/Logoslogan.png" alt="">
+              </a>
+          </div>    
+      </header>
+
+      <body>
+        <section class="form__section">
+            <div class="container form__section-container">
+                <h2>Sign Up</h2>
+                  <div class="alert__message success">
+                    <p>
+                     Login success
+                    </p>
+                </div>
+                
+              
+                  <div class="alert__message error">
+                    <p>
+                      Login error
+                    </p>
+                </div>
+                
+                <form action="" enctype="multipart/form-data" method="POST">
+                    <input type="text" name="firstname" value="" placeholder="First Name">
+                    <input type="text" name="lastname" value="" placeholder="Last Name">
+                    <input type="text" name="username" value="" placeholder="Username">
+                    <input type="text" name="email" value="" placeholder="Email">
+                    <input type="password" name="createpassword" value="" placeholder="Create Password">
+                    <input type="password" name="confirmpassword" value="" placeholder="Confirm Password">
+                    <div class="form__control">
+                        <label for="avatar">User Avatar</label>
+                            <input type="file" name="avatar" id="avatar">
+                    </div>
+                    <button type="submit" name="submit" class="btn">Sign Up</button>
+                    <small>Already have an account? <a href="signin.html">Sign in</a></small>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+         
+
+</main>
+
+</div>
+
+
+  <!-- Custom JS link-->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- Swiper JS Link-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper.js"></script>
+</body>
+</html>

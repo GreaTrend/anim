@@ -1,0 +1,84 @@
+/** Remove default margin & padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease;
+}
+
+/** more-intuitive box-sizing model */
+
+*, *::before, *::after { box-sizing: border-box;}
+
+/** default font family */
+
+html {
+    font-family: var(--ff-poppins);
+    scroll-behavior: smooth;
+}
+
+/** all heading color */
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--white);
+}
+
+/** add default background & color, improve text rendering */
+
+body {
+    background: var(--rich-black-forga-29);
+    color: var(--off-white);
+    -webkit-font-smoothing: antialiased;
+}
+
+/** change image default */
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+/** remove form default */
+
+input, button, select {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/** add button default */
+
+button {
+    color: var(--off-white);
+    cursor: pointer;
+}
+
+/** remove list item marker */
+
+li { list-style: none;}
+
+/** change link default */
+
+a {
+    text-decoration: none;
+    display: block;
+    color: var(--off-white);
+}
+
+/** change default scrollbar style */
+
+::-webkit-scrollbar {
+    background: transparent;
+    border-left: 1px solid var(--oxford-blue);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--light-azure);
+    border-radius: 5em;
+    border: 3px solid var(--rich-black-forga-29);
+}
+

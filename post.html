@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/media_query.css">
+
+    <!-- Google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+    <!-- Swiper CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>AnimeKu</title>
+</head>
+<body>
+    <!-- Main container -->
+
+    <div class="container" >
+
+            
+      <!-- header section -->
+      <header class="">
+          <div class="navbar">
+              <button class="navbar-menu-btn">
+                  <span class="one"></span>
+                  <span class="two"></span>
+                  <span class="three"></span>
+              </button>
+
+              <a href="index.html" class="navbar-brand">
+                  <img src="./assets/images/Logoslogan.png" alt="">
+              </a>
+
+              <!-- Navbar NAvigation -->
+              <nav class="">
+              <ul class="navbar-nav">
+
+                  <li><a href="index.html" class="navbar-link">Home</a></li>
+                  <li><a href="index.html#category" class="navbar-link">Genre</a></li>
+                  <li><a href="#live" class="navbar-link ">Forums</a></li>
+
+              </ul>
+          </nav>
+
+          <!-- search & sign in-->
+          <div class="navbar-actions">
+              <form action="#" class="navbar-form ">
+                  <input type="search" name="search" placeholder="Saya sedang mencari...." class="navbar-form-search">
+
+                  <button class="navbar-form-btn">
+                      <ion-icon name="search-outline"></ion-icon>
+                  </button>
+
+                  <button class="navbar-form-close">
+                      <ion-icon name="close-circle-outline"></ion-icon>
+                  </button>
+              </form>
+
+              <!-- search button for small screen -->
+
+              <button class="navbar-search-btn">
+                  <ion-icon name="search-outline"></ion-icon>
+              </button>
+
+              <a href="login.html" class="navbar-signin">
+                  <span>Sign in</span>
+                  <ion-icon name="log-in-outline"></ion-icon>
+              </a>
+
+          </div>
+
+          </div>    
+      </header>
+    </body>
+
+    <!--DETAILS SECTION-->
+
+    <section class="anime_details">
+        <div class="anime_details_content">
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="anime_details_pic set-bg">
+                    <img src="./assets/images/BokunoKokoronoYabaiYatsu.jpg" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="anime_details_text">
+                    <div class="anime_details_title">
+                        <h3>Bokuno Kokoro Yabai Yatsu</h3>
+                        <span>The Dangers in My Heart, 僕の心のヤバイやつ, Bokuyaba</span>
+                    </div>
+
+                    <p>Kyoutarou Ichikawa mungkin terlihat seperti siswa sekolah menengah yang pemalu dan pendiam, tetapi jauh di lubuk hatinya adalah seorang pembunuh yang haus darah. Keinginan utamanya adalah melihat wajah cantik teman sekelasnya Anna Yamada menggeliat kesakitan sebelum dia mengakhiri hidupnya.<span id="dots"> . . .</span><span id="more">
+                        <br>
+                        <br>
+                        Tapi fantasi ini mungkin tidak akan pernah terwujud, karena Ichikawa mulai melihat sisi yang sama sekali berbeda dari Yamada. Sering mencari perlindungan di perpustakaan, Ichikawa sering bertemu dengan Yamada. Selama pertemuan inilah Ichikawa menyadari bahwa teman sekelas modelnya sebenarnya adalah orang bebal yang tidak pernah bisa membaca ruangan.
+                        <br>
+                        <br>
+                        Ketika mereka menghabiskan lebih banyak waktu bersama, anak laki-laki itu tidak bisa tidak merasakan rasa sayang terhadap gadis yang ingin dia bunuh tetapi juga keinginan untuk melindunginya dengan segala cara. Mungkinkah perubahan mendadak dalam perspektif Ichikawa ini bisa menghasilkan sesuatu yang lebih? [Ditulis oleh MAL Tulis Ulang]
+                        <br>
+                        <br>
+                        Catatan: Sinopsis diterjemahkan secara otomatis oleh Google Translate.</span></p>
+
+                        <button onclick="readFunction()" id="myBtn">Lebih Banyak</button>
+
+                        <div class="split-screen">
+                            <section class="half-screen1"> 
+                                    <ul>
+                                        <li>
+                                            <span>Tipe:</span>
+                                            <a href="#" target="_blank">TV</a>
+                                        </li>
+                                        <li>
+                                            <span>Episode:</span>
+                                            <a href="#">12</a>
+                                        </li>
+                                        <li>
+                                            <span>Status:</span>
+                                           <a href="#">Selesai Tayang</a>
+                                        </li>
+                                        <li>
+                                            <span>Tayang:</span>
+                                            <a>02 Apr 2023 s/d 18 Jun 2023</a>
+                                        </li>
+                                        <li>
+                                            <span>Musim:</span>
+                                            <a href="#">Spring 2023</a>
+                                        </li>
+                                        <li>
+                                            <span>Durasi:</span>
+                                            <a>23 menit per ep</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <span id="dot"></span><span id="mores">
+                                <section class="half-screen">
+                                        <ul>
+                                        <li>
+                                            <span>Genre:</span>
+                                            <a href="#">Comedy Romance</a>
+                                        </li>
+                                        <li>
+                                            <span>Kualitas:</span>
+                                            <a href="#">HD</a>
+                                        </li>
+                                        <li>
+                                            <span>Studio:</span>
+                                            <a href="#">Shin-Ei Animation</a>
+                                        </li>
+                                        <li>
+                                            <span>Adaptasi:</span>
+                                            <a href="#">Manga</a>
+                                        </li>
+                                        <li>
+                                            <span>Tema:</span>
+                                            <a href="#">School</a>
+                                        </li>
+                                        <li>
+                                            <span>Rating:</span>
+                                            <a>PG-13 - Remaja berusia 13 tahun ke atas</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </span>
+                            
+                        </div>
+                        <button onclick="screenFunction()" id="mBtn">Lebih Banyak</button>
+                    </div>
+
+                            
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!--DOWNLOAD SECTION-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--FOOTER SECTION-->
+
+  <footer>
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <img src="./assets/images/Logoslogan.png" alt="" class="footer-img">
+            <p class="slogan">Streaming & Download Anime, Live Anime</p>
+
+            <div class="social-link">
+
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <ul>
+
+                <h4 class="link-heading">AnimeKu</h4>
+
+                <li class="link-item"><a href="#">Tentang Kami</a></li>
+                <li class="link-item"><a href="#">Profil Pembuat</a></li>
+                <li class="link-item"><a href="#">Laporkan Bug</a></li>
+
+            </ul>
+
+            <ul>
+
+                <h4 class="link-heading">Browse</h4>
+
+                <li class="link-item"><a href="index.html">Home</a></li>
+                <li class="link-item"><a href="index.html#category">Genre</a></li>
+                <li class="link-item"><a href="index.html#live">Live Anime</a></li>
+
+            </ul>
+
+            
+
+            <ul>
+
+                <h4 class="link-heading">Help</h4>
+
+                <li class="link-item"><a href="#">Akun Saya</a></li>
+                <li class="link-item"><a href="#">Kaitkan Akun</a></li>
+                <li class="link-item"><a href="#">Pengaturan Akun</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+
+        <div class="copyright">
+            <p>&copy; copyright 2023 Animeku</p>
+        </div>
+
+        <div class="wrapper">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and conditions</a>
+
+        </div>
+
+    </div>
+</footer>
+
+</main>
+
+</div>
+
+
+  <!-- Custom JS link-->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- Swiper JS Link-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper.js"></script>
+</body>
+</html>
